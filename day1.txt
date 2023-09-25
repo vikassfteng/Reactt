@@ -1,0 +1,27 @@
+difference between library and framewrok => Library is like building your home from the ground up. 
+                                            The house can be made in any style you prefer and the rooms 
+                                            can be arranged and decorated however you like. Framework, on the other hand, is like buying a new home. The house is already built, so you don’t have to worry about building problems, but you can’t choose how the rooms are arranged.
+
+
+why react is known as react? => React is called "React" because of its core feature, which is its ability 
+                                to "react" or respond dynamically to changes in data. React was originally
+                                 created by Facebook in 2011 for use in their own web applications, and it 
+                                 was released as an open-source project in 2013.
+
+
+what is crossorigin in script tag => 
+
+react and ReactDOM => React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser
+
+aysnc and differ => (check asyncdefer.jpg) Async allows your script to run as soon as it’s loaded, without blocking other elements on the
+                     page. Defer means your script will only execute after the page has finished loading. 
+                    In most cases, async is the better option — but there are exceptions. 
+
+ArArrow function {()=>} is concise way of writing Javascript functions in shorter way.
+SYNTAX
+const gfg = ( x, y, z = 30 ) => {
+	console.log( x + " " + y + " " + z);  ---------------->output is = 10 20 30
+}
+gfg( 10, 20 );
+
+gfg();
